@@ -1,11 +1,10 @@
 -- MADE BY LEFOS
--- NO CONFIG.LUA FOR PREVENTING DUMPING AND SPAMMING TO THE SPECIFIC WEBHOOKS. IF YOU DIDN'T KNOW, A SERVERSIDE SCRIPT CAN'T BE DUMPED!
+
 -- CONFIG, CHANGE THINGS
 local webhook1 = "https://canary.discord.com/api/webhooks/1190688672195026964/u0oxr_z9_rWQvuedf_A9um9szbCXqxnWLr_ZIRoFVLhdnUfa-IcrJXhw06ur6kOGEnpS" -- Create a webhook and put it here
 local webhook2 = "https://canary.discord.com/api/webhooks/1190688672195026964/u0oxr_z9_rWQvuedf_A9um9szbCXqxnWLr_ZIRoFVLhdnUfa-IcrJXhw06ur6kOGEnpS" -- Create a webhook and put it here
 local username = "CWRPC" -- Put your server name or anything else you want the author of the message to be
 
-    -- Function to extract identifiers
 -- Function to extract identifiers
 function ExtractIdentifiers(source)
     local identifiers = {}
